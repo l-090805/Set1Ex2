@@ -13,7 +13,6 @@
 
             double x, x1, x2;
             double delta = (b * b) - (4 * a * c);
-            char i = 'i';
             if(delta > 0)
             {
                 x1 = (-b + Math.Sqrt(delta)) / 2 * a;
