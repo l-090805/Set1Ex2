@@ -15,13 +15,13 @@
             double delta = (b * b) - (4 * a * c);
             if(delta > 0)
             {
-                x1 = (-b + Math.Sqrt(delta)) / 2 * a;
-                x2 = (-b - Math.Sqrt(delta)) / 2 * a;
+                x1 = (-b + Math.Sqrt(delta)) /( 2 * a);
+                x2 = (-b - Math.Sqrt(delta)) / (2 * a);
                 Console.WriteLine($"Ecuatia {a}x^2+{b}x+{c}=0 are 2 solutii reale diferite: x1={x1}, x2={x2}");
             }
             else if( delta == 0 )
             {
-                x = -b/2 * a;
+                x = -b/(2 * a);
                 Console.WriteLine($"Ecuatia {a}x^2+{b}x+{c}=0 are 2 solutii reale egale: x1=x2={x}");
             }
             else
